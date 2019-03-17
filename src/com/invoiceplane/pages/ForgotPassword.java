@@ -14,6 +14,9 @@ public class ForgotPassword
     WebDriver driver1;
     WebDriver driver3;
 
+    WebElement w1;
+    WebElement w2;
+
     @FindBy(id="email")
     WebElement txtEmail;
 
