@@ -11,6 +11,8 @@ import org.openqa.selenium.support.PageFactory;
 public class ForgotPassword
 {
     WebDriver driver;
+    WebDriver driver1;
+    WebDriver driver3;
 
     @FindBy(id="email")
     WebElement txtEmail;
